@@ -1,0 +1,157 @@
+[debug] [2023-02-10T09:42:44.398Z] : 
+[debug] [2023-02-10T09:42:44.400Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T09:42:44.400Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve --no-watch
+[debug] [2023-02-10T09:42:44.401Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T09:42:44.402Z] : Platform:     win32
+[debug] [2023-02-10T09:42:44.402Z] : Node Version: v18.12.1
+[debug] [2023-02-10T09:42:44.404Z] : Time:         Fri Feb 10 2023 15:12:44 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T09:42:44.404Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T09:42:44.405Z] : 
+[debug] [2023-02-10T09:42:45.850Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T09:42:45.851Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T09:42:45.876Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089 
+
+[debug] [2023-02-10T09:42:46.194Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:42:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=23c6a1b5-39c4-44df-86ff-731e01b4f80d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=23c6a1b5-39c4-44df-86ff-731e01b4f80d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T09:42:46.203Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/environment 
+
+[debug] [2023-02-10T09:42:46.495Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:42:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=0266e834-4fc5-4239-8eef-176c97b64ee3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0266e834-4fc5-4239-8eef-176c97b64ee3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T09:42:46.897Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-10T09:42:47.212Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:42:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=906e89a3-752c-41bc-8802-293caf6c3acf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=906e89a3-752c-41bc-8802-293caf6c3acf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T09:42:47.225Z] : unknown eol undefined hence skipping check
+[info] [2023-02-10T09:42:47.698Z] : Compiling C:\Users\farook\Desktop\Reg\functions\OcrCheck\OcrValue.java
+[info] [2023-02-10T09:42:49.942Z] : i functions(OcrCheck): URL => http://localhost:3000/server/OcrCheck/execute
+[info] [2023-02-10T09:42:49.944Z] : 
+[debug] [2023-02-10T11:02:30.928Z] : 
+[debug] [2023-02-10T11:02:30.930Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T11:02:30.930Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve --no-watch
+[debug] [2023-02-10T11:02:30.931Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T11:02:30.932Z] : Platform:     win32
+[debug] [2023-02-10T11:02:30.932Z] : Node Version: v18.12.1
+[debug] [2023-02-10T11:02:30.934Z] : Time:         Fri Feb 10 2023 16:32:30 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T11:02:30.935Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T11:02:30.935Z] : 
+[debug] [2023-02-10T11:02:32.384Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T11:02:32.384Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T11:02:32.401Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089 
+
+[debug] [2023-02-10T11:02:32.669Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 11:02:29 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=0a81da13-d731-4c9d-87d6-1a443ae1958a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0a81da13-d731-4c9d-87d6-1a443ae1958a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T11:02:32.678Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/environment 
+
+[debug] [2023-02-10T11:02:32.884Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 11:02:29 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=b9c21fbd-5d9c-438f-9f0b-89efcd818cc8;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b9c21fbd-5d9c-438f-9f0b-89efcd818cc8;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T11:02:33.219Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2023-02-10T11:02:33.231Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-10T11:02:33.417Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 11:02:30 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=36e36614-bd4d-4e39-9b6d-b58a31a5f50d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=36e36614-bd4d-4e39-9b6d-b58a31a5f50d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T11:02:33.425Z] : unknown eol undefined hence skipping check
+[info] [2023-02-10T11:02:33.915Z] : Compiling C:\Users\farook\Desktop\Reg\functions\OcrCheck\OcrValue.java
+[info] [2023-02-10T11:02:35.031Z] : i functions(OcrCheck): URL => http://localhost:3002/server/OcrCheck/execute
+[info] [2023-02-10T11:02:35.034Z] : 
+[debug] [2023-02-10T11:23:28.583Z] : 
+[debug] [2023-02-10T11:23:28.584Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T11:23:28.585Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve --no-watch
+[debug] [2023-02-10T11:23:28.585Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T11:23:28.585Z] : Platform:     win32
+[debug] [2023-02-10T11:23:28.586Z] : Node Version: v18.12.1
+[debug] [2023-02-10T11:23:28.587Z] : Time:         Fri Feb 10 2023 16:53:28 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T11:23:28.588Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T11:23:28.588Z] : 
+[debug] [2023-02-10T11:23:29.776Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T11:23:29.777Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T11:23:29.791Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089 
+
+[debug] [2023-02-10T11:23:30.000Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 11:23:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=1a83c023-7275-44e5-b68d-4d915debfed5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1a83c023-7275-44e5-b68d-4d915debfed5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T11:23:30.008Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/environment 
+
+[debug] [2023-02-10T11:23:30.220Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 11:23:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=25fbcac1-3871-4ccb-9965-a2054072b09d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=25fbcac1-3871-4ccb-9965-a2054072b09d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T11:23:30.598Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-10T11:23:30.742Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 11:23:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=10066f40-5ebc-4769-bbd3-7244bbf6f66f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=10066f40-5ebc-4769-bbd3-7244bbf6f66f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T11:23:30.746Z] : unknown eol undefined hence skipping check
+[info] [2023-02-10T11:23:31.221Z] : Compiling C:\Users\farook\Desktop\Reg\functions\OcrCheck\OcrValue.java
+[info] [2023-02-10T11:23:32.196Z] : i functions(OcrCheck): URL => http://localhost:3000/server/OcrCheck/execute
+[info] [2023-02-10T11:23:32.199Z] : 
+[debug] [2023-02-12T13:50:21.473Z] : 
+[debug] [2023-02-12T13:50:21.474Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T13:50:21.474Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-12T13:50:21.474Z] : CLI Version:  1.13.3
+[debug] [2023-02-12T13:50:21.475Z] : Platform:     win32
+[debug] [2023-02-12T13:50:21.475Z] : Node Version: v18.12.1
+[debug] [2023-02-12T13:50:21.476Z] : Time:         Sun Feb 12 2023 19:20:21 GMT+0530 (India Standard Time)
+[debug] [2023-02-12T13:50:21.477Z] : ----------------------------------------------------------------------
+[debug] [2023-02-12T13:50:21.477Z] : 
+[debug] [2023-02-12T13:50:22.699Z] : > authorizing via signed-in user option
+[debug] [2023-02-12T13:50:22.700Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-12T13:50:22.712Z] : > refreshing access token <
+[debug] [2023-02-12T13:50:22.713Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-12T13:50:22.931Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 13:50:18 GMT","content-type":"application/json;charset=UTF-8","content-length":"2727","connection":"close","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=4043c926-ce57-44bc-959c-d5a215ac2f5a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4043c926-ce57-44bc-959c-d5a215ac2f5a;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T13:50:22.940Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089 
+
+[debug] [2023-02-12T13:50:23.157Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 13:50:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=4f351b63-4462-43c4-94e8-589179909616;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4f351b63-4462-43c4-94e8-589179909616;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T13:50:23.159Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/environment 
+
+[debug] [2023-02-12T13:50:23.337Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 13:50:18 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=d9f4854f-0dfe-4332-9ce6-fdb0768334f7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d9f4854f-0dfe-4332-9ce6-fdb0768334f7;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T13:50:23.688Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-12T13:50:23.816Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sun, 12 Feb 2023 13:50:19 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=417bc3cc-4277-4b20-af73-2bd3276f46f0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=417bc3cc-4277-4b20-af73-2bd3276f46f0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-12T13:50:23.819Z] : unknown eol undefined hence skipping check
+[info] [2023-02-12T13:50:24.072Z] : Compiling C:\Users\farook\Desktop\Reg\functions\OcrCheck\OcrValue.java
+[info] [2023-02-12T13:50:25.513Z] : i functions(OcrCheck): URL => http://localhost:3000/server/OcrCheck/execute
+[info] [2023-02-12T13:50:25.515Z] : 
+[info] [2023-02-12T13:50:37.491Z] : 
+change of output1.jpg in OcrCheck detected. Preparing your function, please wait...
+[info] [2023-02-12T13:50:37.701Z] : Compiling C:\Users\farook\Desktop\Reg\functions\OcrCheck\OcrValue.java
+[error] [2023-02-12T13:50:38.250Z] : × An unexpected error has occurred.
+[debug] [2023-02-12T13:50:38.250Z] : Error Stack: CatalystError: An unexpected error has occurred.
+    at exports.default (C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:12:17)
+    at process.<anonymous> (C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[debug] [2023-02-12T13:50:38.250Z] : Original Error: Error: [Error: EBUSY: resource busy or locked, unlink 'C:\Users\farook\Desktop\Reg\.build\OcrCheck\servlet-api-3.1.jar'] {
+  errno: -4082,
+  code: 'EBUSY',
+  syscall: 'unlink',
+  path: 'C:\\Users\\farook\\Desktop\\Reg\\.build\\OcrCheck\\servlet-api-3.1.jar'
+}
+    at exports.default (C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\errorOut.js:14:23)
+    at process.<anonymous> (C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js:90:28)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/process/promises:149:20)
+    at processPromiseRejections (node:internal/process/promises:283:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:32)
+[debug] [2023-02-12T13:50:38.251Z] : Error Status: 500
+[info] [2023-02-12T13:50:38.251Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance

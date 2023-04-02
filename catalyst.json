@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "targets": [
+      "OcrCheck"
+    ],
+    "ignore": [
+      ".output"
+    ],
+    "source": "functions"
+  }
+}

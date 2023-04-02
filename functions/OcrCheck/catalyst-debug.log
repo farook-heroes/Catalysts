@@ -1,0 +1,35 @@
+[debug] [2023-02-10T04:29:47.696Z] : 
+[debug] [2023-02-10T04:29:47.697Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T04:29:47.697Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\farook\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js functions:shell --no-watch
+[debug] [2023-02-10T04:29:47.697Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T04:29:47.698Z] : Platform:     win32
+[debug] [2023-02-10T04:29:47.698Z] : Node Version: v18.12.1
+[debug] [2023-02-10T04:29:47.699Z] : Time:         Fri Feb 10 2023 09:59:47 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T04:29:47.699Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T04:29:47.699Z] : 
+[debug] [2023-02-10T04:29:48.411Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T04:29:48.412Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE"]
+[debug] [2023-02-10T04:29:48.423Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089 
+
+[debug] [2023-02-10T04:29:48.636Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 04:29:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=253e2cab-8c2b-45a0-9ab5-a9aacb27706a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=253e2cab-8c2b-45a0-9ab5-a9aacb27706a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T04:29:48.639Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/environment 
+
+[debug] [2023-02-10T04:29:48.838Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 04:29:45 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=13ababf5-6d02-4092-9721-ccb17d4f48c1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=13ababf5-6d02-4092-9721-ccb17d4f48c1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T04:29:48.993Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/2299000000007089/function 
+Query params: {"type":"basicio,event,cron,applogic,integration"}
+
+[debug] [2023-02-10T04:29:49.135Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 04:29:46 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=19411507-d900-4927-8451-195bd85dbf40;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=19411507-d900-4927-8451-195bd85dbf40;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T04:29:49.137Z] : unknown eol undefined hence skipping check
+[info] [2023-02-10T04:29:49.352Z] : Compiling C:\Users\farook\Desktop\Reg\functions\OcrCheck\OcrValue.java
+[info] [2023-02-10T04:30:10.536Z] : [cli] Function execution complete
+[info] [2023-02-10T04:30:10.537Z] : 
+[info] [2023-02-10T04:30:10.539Z] : [response]
+[info] [2023-02-10T04:30:10.539Z] : {"output":"GENPM2881C"}
+[info] [2023-02-10T04:30:10.539Z] : [status]
+[info] [2023-02-10T04:30:10.540Z] : 200
